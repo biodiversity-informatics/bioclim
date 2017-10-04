@@ -4,7 +4,7 @@ const gbif = require('../lib/gbif');
 // Types
 // -----
 //
-// type Specie {
+// type Species {
 //   name: string
 //   ocurrences: Coordinate[]
 // }
