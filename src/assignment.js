@@ -31,6 +31,7 @@ const gbif = require('../lib/gbif');
 //
 //   Output:
 //   -------
+//
 //   25.7
 //   24.9
 
@@ -46,6 +47,7 @@ const gbif = require('../lib/gbif');
 //
 //   Example:
 //   --------
+//
 //   gbif.searchOccurrences('2435098', 2010).then(function (coords) {
 //     console.log(coords.length);
 //   }).catch(function (err) {
@@ -54,6 +56,7 @@ const gbif = require('../lib/gbif');
 //
 //   Output:
 //   -------
+//
 //   150
 
 // Compare temperatures
@@ -61,10 +64,10 @@ module.exports.Exercise4 = function (speciesA, speciesB) {
 };
 
 // Lowest precipitation
-module.exports.Exercise5A = function (year, taxonKey) {
+module.exports.Exercise5A = function (year, taxonKey, callback) {
 };
 
 // Temperature in range
-module.exports.Exercise5B = function (year, taxonKey) {
+module.exports.Exercise5B = function (year, taxonKey, callback) {
 };
 
