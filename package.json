@@ -1,0 +1,14 @@
+{
+  "name": "bioclim",
+  "version": "1.0.0",
+  "description": "Bioclim Assignment",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biodiversity-informatics/bioclim"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gdal": "^0.9.6",
+    "request": "^2.82.0"
+  }
+}
